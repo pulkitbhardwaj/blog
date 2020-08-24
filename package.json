@@ -1,0 +1,29 @@
+{
+	"name": "root",
+	"private": true,
+	"description": "",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"bootstrap": "lerna bootstrap"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pulkitbhardwaj/blog.git"
+	},
+	"keywords": [],
+	"author": "Pulkit Bhardwaj <pulkitbhardwaj1994@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pulkitbhardwaj/blog/issues"
+	},
+	"homepage": "https://github.com/pulkitbhardwaj/blog#readme",
+	"devDependencies": {
+		"lerna": "^3.20.2"
+	},
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	}
+}

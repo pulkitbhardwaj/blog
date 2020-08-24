@@ -41,6 +41,12 @@ build/Release
 node_modules/
 jspm_packages/
 
+# test
+__mocks__/
+
+# relay
+__generated__/
+
 # TypeScript v1 declaration files
 typings/
 
@@ -102,3 +108,5 @@ dist
 
 # TernJS port file
 .tern-port
+
+
